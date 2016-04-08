@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:CustomTabBar="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tab_bar_pager_test_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"/>
+
+
+    <com.cedarwood.ademo.view.tab.CustomTabBar
+        android:layout_marginTop="30dip"
+        android:id="@+id/tab_bar_pager_test_tab"
+        android:layout_width="match_parent"
+        android:layout_height="41dip"
+        CustomTabBar:barHeight="5dp"
+        CustomTabBar:animType = "1"
+        CustomTabBar:barMiniHeight = "1dip"
+        CustomTabBar:curTabIndex="2"
+        CustomTabBar:barColor="@color/co_global_gray"
+        CustomTabBar:barWidthScale="0.6"
+        CustomTabBar:selectedTextSize="15sp"
+        CustomTabBar:normalTextSize="12sp"
+        CustomTabBar:lineHeight="25dip"
+        CustomTabBar:lineColor="@color/co_text_blue_deep"/>
+
+    <com.cedarwood.ademo.view.tab.CustomScrollTabBar
+        android:layout_marginTop="30dip"
+        android:id="@+id/tab_bar_pager_test_tab2"
+        android:layout_width="match_parent"
+        android:layout_height="41dip"
+        CustomTabBar:barHeight="5dp"
+        CustomTabBar:animType = "1"
+        CustomTabBar:barMiniHeight = "1dip"
+        CustomTabBar:curTabIndex="2"
+        CustomTabBar:barColor="@color/co_global_gray"
+        CustomTabBar:barWidthScale="0.6"
+        CustomTabBar:selectedTextSize="18sp"
+        CustomTabBar:normalTextSize="15sp"
+        CustomTabBar:lineHeight="25dip"
+        CustomTabBar:lineColor="@color/co_text_blue_deep"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tab_bar_pager_test_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+
+
+</LinearLayout>

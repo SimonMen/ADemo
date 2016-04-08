@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/co_global_bg"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.SwipeRefreshTestActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/swipe_refresh_test_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/swipe_refresh_test_drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize">
+        <!--主布局-->
+
+        <com.cedarwood.ademo.view.RefreshLayout
+            android:id="@+id/swipe_refresh_test_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.cedarwood.ademo.view.pull.PullListView
+                android:id="@+id/swipe_refresh_test_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:dividerHeight="0dip"
+                android:listSelector="@android:color/transparent"
+                android:scrollbarThumbVertical="@drawable/global_scroll_bar"
+                android:visibility="visible" />
+
+
+
+        </com.cedarwood.ademo.view.RefreshLayout>
+
+
+        <!--侧滑菜单-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#fff">
+
+            <ListView
+                android:id="@+id/swipe_refresh_test_drawer_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:text="DrawerLayout" />
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+
+    <include
+        android:id="@+id/global_loading"
+        layout="@layout/view_global_loading"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/global_fail"
+        layout="@layout/view_global_fail"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/global_no_data"
+        layout="@layout/view_global_no_data"
+        android:visibility="gone" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/dimen_global_margin"
+        android:src="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>

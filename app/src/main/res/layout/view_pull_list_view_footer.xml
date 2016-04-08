@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        >
+
+        <!-- 箭头 -->
+
+        <com.cedarwood.ademo.view.pull.RefreshImageView
+            android:id="@+id/view_list_view_footer_arrow"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center"
+            android:src="@mipmap/refresh_grey" />
+
+        <!-- 进度条 -->
+
+        <ProgressBar
+            android:id="@+id/view_list_view_footer_progress"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/view_pull_list_loading"
+             />
+    </FrameLayout>
+
+
+</LinearLayout>

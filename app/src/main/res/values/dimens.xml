@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- golbal -->
+    <dimen name="dimen_global_line_h">1dp</dimen>
+    <dimen name="dimen_global_line_h_half">0.5dp</dimen>
+    <dimen name="dimen_global_margin">15dp</dimen>
+    <dimen name="dimen_global_space">10dp</dimen>
+    <dimen name="dimen_global_corner">3dip</dimen>
+    <dimen name="dimen_item_height">53dp</dimen>
+
+    <!-- text -->
+    <dimen name="dimen_text_nine">9sp</dimen>
+    <dimen name="dimen_text_twelve">12sp</dimen>
+    <dimen name="dimen_text_thirteen">13sp</dimen>
+    <dimen name="dimen_text_fourteen">14sp</dimen>
+    <dimen name="dimen_text_fifteen">15sp</dimen>
+    <dimen name="dimen_text_sixteen">16sp</dimen>
+    <dimen name="dimen_text_seventeen">17sp</dimen>
+    <dimen name="dimen_text_eighteen">18sp</dimen>
+    <dimen name="dimen_text_twentynine">29dp</dimen>
+</resources>

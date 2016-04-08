@@ -1,0 +1,14 @@
+storepass:mwt@993265
+keypass:mwt@993265
+alias:xmen_key
+
+keytool -genkey -alias xmen_key -keypass mwt@993265 -keyalg RSA -keysize 1024 -validity 360000 -keystore d:\xmen.keystore -storepass mwt@993265 -dname "CN=XMEN, OU=CWM, O=CEDARWOOD, L=BJ, ST=BJ, C=CN"
+
+keytool -list  -v -keystore d:\xmen.keystore -storepass mwt@993265
+
+
+storepass:debug@key
+keypass:debug@key
+alias:debug_key
+
+keytool -genkey -alias debug_key -keypass debug@key -keyalg RSA -keysize 1024 -validity 360000 -keystore d:\debug.keystore -storepass debug@key -dname "CN=XMEN, OU=CWM, O=CEDARWOOD, L=BJ, ST=BJ, C=CN"

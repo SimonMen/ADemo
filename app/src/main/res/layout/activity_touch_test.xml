@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_global_title" />
+
+
+    <com.cedarwood.ademo.view.touch.CustomRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dip"
+        android:background="@color/co_global_gray"
+        >
+
+        <com.cedarwood.ademo.view.touch.CustomLinearLayout
+            android:layout_centerInParent="true"
+            android:layout_width="200dip"
+            android:layout_height="200dip"
+            android:background="@color/co_global_blue_light"
+            android:gravity="center">
+
+            <com.cedarwood.ademo.view.touch.CustomTextView
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:gravity="center"
+                android:background="@color/co_global_red"
+                android:text="touch"
+                />
+
+
+        </com.cedarwood.ademo.view.touch.CustomLinearLayout>
+
+
+
+    </com.cedarwood.ademo.view.touch.CustomRelativeLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

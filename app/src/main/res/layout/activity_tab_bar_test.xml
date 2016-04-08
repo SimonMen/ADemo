@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:CustomTabBar="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tab_bar_test_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tab_bar_test"
+        android:textSize="@dimen/dimen_text_sixteen"
+        android:textColor="@color/co_text_red"
+        />
+
+    <com.cedarwood.ademo.view.tab.CustomTabBar
+        android:layout_marginTop="30dip"
+        android:id="@+id/tab_bar_test_tab_1"
+        android:layout_width="match_parent"
+        android:layout_height="41dip"
+        />
+
+    <com.cedarwood.ademo.view.tab.CustomTabBar
+        android:layout_marginTop="30dip"
+        android:id="@+id/tab_bar_test_tab_2"
+        android:layout_width="240dip"
+        android:layout_height="41dip"
+        CustomTabBar:barHeight="2dp"
+        CustomTabBar:curTabIndex="2"
+        CustomTabBar:barColor="@color/co_global_gray"
+        CustomTabBar:barWidthScale="0.4"
+        CustomTabBar:selectedTextSize="15sp"
+        CustomTabBar:normalTextSize="12sp"
+        CustomTabBar:lineHeight="25dip"
+        CustomTabBar:lineColor="@color/co_text_blue_deep"/>
+
+    <com.cedarwood.ademo.view.tab.CustomScrollTabBar
+        android:layout_marginTop="30dip"
+        android:id="@+id/tab_bar_test_scroll_tab_1"
+        android:layout_width="match_parent"
+        android:layout_height="41dip"
+        CustomTabBar:barHeight="2dp"
+        CustomTabBar:leftMargin="20dp"
+        CustomTabBar:curTabIndex="2"
+        CustomTabBar:barColor="@color/co_global_gray"
+        CustomTabBar:barWidthScale="0.4"
+        CustomTabBar:selectedTextSize="15sp"
+        CustomTabBar:normalTextSize="12sp"
+        CustomTabBar:lineHeight="25dip"
+        CustomTabBar:lineColor="@color/co_text_blue_deep"/>
+
+    <com.cedarwood.ademo.view.tab.CustomScrollTabBar
+        android:layout_marginTop="30dip"
+        android:id="@+id/tab_bar_test_scroll_tab_2"
+        android:layout_width="240dip"
+        android:layout_height="41dip" />
+
+
+
+</LinearLayout>

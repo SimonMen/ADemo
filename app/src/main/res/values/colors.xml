@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- global -->
+    <color name="transparent">#00000000</color>
+    <color name="translucence">#90000000</color>
+
+    <color name="co_global_white">#ffffff</color>
+    <color name="co_global_red">#ff666c</color>
+    <color name="co_global_blue">#12aaeb</color>
+    <color name="co_global_blue_light">#BBDEFB</color>
+
+    <color name="co_global_bg">#f7f7f7</color>
+    <color name="co_global_line">#e7e7e7</color>
+    <color name="co_global_list_line">#ededed</color>
+    <color name="co_global_gray">#b2b2b2</color>
+    <color name="co_global_half_transparent">#80000000</color>
+
+    <!-- text -->
+    <color name="co_text_gray">#aaaaaa</color>
+    <color name="co_text_gray_deep">#777777</color>
+    <color name="co_text_white">#ffffff</color>
+    <color name="co_text_red">#ff666c</color>
+    <color name="co_text_blue">#12aaeb</color>
+    <color name="co_text_blue_deep">#5682b2</color>
+
+    <color name="co_red_deep">#ff666c</color>
+    <color name="co_red_light">#44ff0000</color>
+</resources>

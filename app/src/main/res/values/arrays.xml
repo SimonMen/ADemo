@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="recycler_animators_adapters">
+        <item>Alpha</item>
+        <item>Slide left</item>
+        <item>Slide right</item>
+        <item>Slide bottom</item>
+        <item>Scale</item>
+        <item>Slide bottom</item>
+    </string-array>
+
+    <string-array name="recycler_animators_types">
+        <item>list</item>
+        <item>grid</item>
+    </string-array>
+
+
+</resources>
