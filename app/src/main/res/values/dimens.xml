@@ -10,6 +10,7 @@
     <dimen name="dimen_global_space">10dp</dimen>
     <dimen name="dimen_global_corner">3dip</dimen>
     <dimen name="dimen_item_height">53dp</dimen>
+    <dimen name="dimen_global_title">50dp</dimen>
 
     <!-- text -->
     <dimen name="dimen_text_nine">9sp</dimen>
@@ -21,4 +22,7 @@
     <dimen name="dimen_text_seventeen">17sp</dimen>
     <dimen name="dimen_text_eighteen">18sp</dimen>
     <dimen name="dimen_text_twentynine">29dp</dimen>
+
+    <!-- double drag -->
+    <dimen name="dimen_double_drag_image_height">170dp</dimen>
 </resources>

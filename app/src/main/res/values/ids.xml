@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Double Drag Layout -->
+    <item name="double_drag_header" type="id">12</item>
+    <item name="double_drag_footer" type="id">24</item>
+
+
+</resources>

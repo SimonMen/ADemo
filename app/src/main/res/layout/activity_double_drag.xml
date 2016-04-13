@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/view_global_title" />
+
+    <com.cedarwood.ademo.view.DoubleDragLayout
+        android:id="@+id/double_drag_ddl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title"
+        android:background="@color/co_global_bg"
+        android:orientation="vertical" >
+
+        <com.cedarwood.ademo.view.OverOpenScrollView
+            android:id="@id/double_drag_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarThumbVertical="@drawable/global_scroll_bar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+
+                <RelativeLayout
+                    android:id="@+id/double_drag_header_image_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <FrameLayout
+                        android:id="@+id/double_drag_header_image_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" />
+                </RelativeLayout>
+
+                <FrameLayout
+                    android:id="@+id/double_drag_header_info_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                </FrameLayout>
+
+            </LinearLayout>
+        </com.cedarwood.ademo.view.OverOpenScrollView>
+
+        <RelativeLayout
+            android:id="@id/double_drag_footer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:background="@color/co_global_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="second"
+                    android:textColor="@color/co_text_red"
+                    android:textSize="@dimen/dimen_text_seventeen"/>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </com.cedarwood.ademo.view.DoubleDragLayout>
+
+
+
+
+
+
+</LinearLayout>

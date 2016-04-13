@@ -96,6 +96,14 @@
             android:name=".activity.TouchTestActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DoubleDragTestActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.JazzyViewPagerTestActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
 
 
         <meta-data
