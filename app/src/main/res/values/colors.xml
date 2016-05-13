@@ -17,6 +17,7 @@
     <color name="co_global_line">#e7e7e7</color>
     <color name="co_global_list_line">#ededed</color>
     <color name="co_global_gray">#b2b2b2</color>
+    <color name="co_global_gray_deep">#777777</color>
     <color name="co_global_half_transparent">#80000000</color>
 
     <!-- text -->

@@ -4,6 +4,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <!-- golbal -->
+    <dimen name="dimen_global_line_h_double">2dp</dimen>
     <dimen name="dimen_global_line_h">1dp</dimen>
     <dimen name="dimen_global_line_h_half">0.5dp</dimen>
     <dimen name="dimen_global_margin">15dp</dimen>

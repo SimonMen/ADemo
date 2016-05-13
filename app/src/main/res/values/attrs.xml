@@ -49,4 +49,14 @@
         <attr name="outlineColor" format="color|reference" />
     </declare-styleable>
 
+    <declare-styleable name="OnOff">
+        <attr name="padding" format="dimension" />
+        <attr name="bgColor" format="color" />
+        <attr name="bgStrokeColor" format="color" />
+        <attr name="bgStrokeWidth" format="dimension" />
+        <attr name="dotOffColor" format="color" />
+        <attr name="dotOnColor" format="color" />
+        <attr name="animScrollDuration" format="integer" />
+    </declare-styleable>
+
 </resources>
