@@ -51,21 +51,21 @@ public class TabBarViewPagerTestActivity extends BaseActivity {
         tabs.add("落雁昭君");
         tabs.add("西施");
         tabs.add("羞花玉环");
-        tabs.add("貂蝉");
-        tabs.add("落雁昭君");
-        tabs.add("西施");
-        tabs.add("羞花玉环");
-        tabs.add("貂蝉");
-        tabs.add("落雁昭君");
-        tabs.add("西施");
-        tabs.add("羞花玉环");
+//        tabs.add("貂蝉");
+//        tabs.add("落雁昭君");
+//        tabs.add("西施");
+//        tabs.add("羞花玉环");
+//        tabs.add("貂蝉");
+//        tabs.add("落雁昭君");
+//        tabs.add("西施");
+//        tabs.add("羞花玉环");
 
         bar.setCurTabIndex(0);
         bar.addTabs(tabs);
         bar.setOnTabChangeListener(new CustomTabBar.OnTabChangeListener() {
             @Override
             public boolean onTabChanged(int newIndex) {
-//                viewPager.setCurrentItem(newIndex);
+                viewPager.setCurrentItem(newIndex);
                 return true;
             }
         });
@@ -75,7 +75,7 @@ public class TabBarViewPagerTestActivity extends BaseActivity {
         bar2.setOnTabChangeListener(new CustomScrollTabBar.OnTabChangeListener() {
             @Override
             public boolean onTabChanged(int newIndex) {
-                viewPager.setCurrentItem(newIndex);
+//                viewPager.setCurrentItem(newIndex);
                 return true;
             }
         });
@@ -127,7 +127,7 @@ public class TabBarViewPagerTestActivity extends BaseActivity {
         viewPager = (ViewPager) findViewById(R.id.tab_bar_pager_test_pager);
         adapter = new TabPagerAdapter(getSupportFragmentManager(),fragments);
         viewPager.setAdapter(adapter);
-        viewPager.addOnPageChangeListener(pageChangeListener2);
+        viewPager.addOnPageChangeListener(pageChangeListener);
 
 
     }

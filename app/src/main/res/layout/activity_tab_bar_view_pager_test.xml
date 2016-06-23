@@ -43,7 +43,8 @@
         CustomTabBar:selectedTextSize="18sp"
         CustomTabBar:normalTextSize="15sp"
         CustomTabBar:lineHeight="25dip"
-        CustomTabBar:lineColor="@color/co_text_blue_deep"/>
+        CustomTabBar:lineColor="@color/co_text_blue_deep"
+        android:visibility="gone"/>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/tab_bar_pager_test_pager"

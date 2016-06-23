@@ -20,14 +20,14 @@
         android:textColor="@color/co_text_red"
         />
 
-    <com.cedarwood.ademo.view.tab.CustomTabBar
+    <com.cedarwood.ademo.view.tab.CustomTabBar2
         android:layout_marginTop="30dip"
         android:id="@+id/tab_bar_test_tab_1"
         android:layout_width="match_parent"
         android:layout_height="41dip"
         />
 
-    <com.cedarwood.ademo.view.tab.CustomTabBar
+    <com.cedarwood.ademo.view.tab.CustomTabBar2
         android:layout_marginTop="30dip"
         android:id="@+id/tab_bar_test_tab_2"
         android:layout_width="240dip"
@@ -41,7 +41,7 @@
         CustomTabBar:lineHeight="25dip"
         CustomTabBar:lineColor="@color/co_text_blue_deep"/>
 
-    <com.cedarwood.ademo.view.tab.CustomScrollTabBar
+    <com.cedarwood.ademo.view.tab.CustomScrollTabBar2
         android:layout_marginTop="30dip"
         android:id="@+id/tab_bar_test_scroll_tab_1"
         android:layout_width="match_parent"
@@ -56,7 +56,7 @@
         CustomTabBar:lineHeight="25dip"
         CustomTabBar:lineColor="@color/co_text_blue_deep"/>
 
-    <com.cedarwood.ademo.view.tab.CustomScrollTabBar
+    <com.cedarwood.ademo.view.tab.CustomScrollTabBar2
         android:layout_marginTop="30dip"
         android:id="@+id/tab_bar_test_scroll_tab_2"
         android:layout_width="240dip"

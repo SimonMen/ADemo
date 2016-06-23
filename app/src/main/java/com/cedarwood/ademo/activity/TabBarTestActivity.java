@@ -7,7 +7,9 @@ import android.support.v7.widget.Toolbar;
 
 import com.cedarwood.ademo.R;
 import com.cedarwood.ademo.view.tab.CustomScrollTabBar;
+import com.cedarwood.ademo.view.tab.CustomScrollTabBar2;
 import com.cedarwood.ademo.view.tab.CustomTabBar;
+import com.cedarwood.ademo.view.tab.CustomTabBar2;
 
 import java.util.ArrayList;
 
@@ -17,10 +19,10 @@ import java.util.ArrayList;
 public class TabBarTestActivity extends BaseActivity {
 
 
-    private CustomTabBar bar1;
-    private CustomTabBar bar2;
-    private CustomScrollTabBar sbar1;
-    private CustomScrollTabBar sbar2;
+    private CustomTabBar2 bar1;
+    private CustomTabBar2 bar2;
+    private CustomScrollTabBar2 sbar1;
+    private CustomScrollTabBar2 sbar2;
     private ArrayList<String> tabs;
     private ArrayList<String> tabs2;
 
@@ -52,10 +54,10 @@ public class TabBarTestActivity extends BaseActivity {
         getSupportActionBar().setHomeButtonEnabled(true); //设置返回键可用
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        bar1 = (CustomTabBar) findViewById(R.id.tab_bar_test_tab_1);
-        bar2 = (CustomTabBar)findViewById(R.id.tab_bar_test_tab_2);
-        sbar1 = (CustomScrollTabBar) findViewById(R.id.tab_bar_test_scroll_tab_1);
-        sbar2 = (CustomScrollTabBar) findViewById(R.id.tab_bar_test_scroll_tab_2);
+        bar1 = (CustomTabBar2) findViewById(R.id.tab_bar_test_tab_1);
+        bar2 = (CustomTabBar2)findViewById(R.id.tab_bar_test_tab_2);
+        sbar1 = (CustomScrollTabBar2) findViewById(R.id.tab_bar_test_scroll_tab_1);
+        sbar2 = (CustomScrollTabBar2) findViewById(R.id.tab_bar_test_scroll_tab_2);
 
     }
 
@@ -69,7 +71,7 @@ public class TabBarTestActivity extends BaseActivity {
         tabs.add("羞花玉环");
 
         bar1.addTabs(tabs);
-        bar1.setOnTabChangeListener(new CustomTabBar.OnTabChangeListener() {
+        bar1.setOnTabChangeListener(new CustomTabBar2.OnTabChangeListener() {
             @Override
             public boolean onTabChanged(int newIndex) {
                 showToast(tabs.get(newIndex));
@@ -78,7 +80,7 @@ public class TabBarTestActivity extends BaseActivity {
         });
 
         bar2.addTabs(tabs);
-        bar2.setOnTabChangeListener(new CustomTabBar.OnTabChangeListener() {
+        bar2.setOnTabChangeListener(new CustomTabBar2.OnTabChangeListener() {
             @Override
             public boolean onTabChanged(int newIndex) {
                 showToast(tabs.get(newIndex));
@@ -98,7 +100,7 @@ public class TabBarTestActivity extends BaseActivity {
         tabs2.add("哈哈哈哈哈");
 
         sbar1.addTabs(tabs2);
-        sbar1.setOnTabChangeListener(new CustomScrollTabBar.OnTabChangeListener() {
+        sbar1.setOnTabChangeListener(new CustomScrollTabBar2.OnTabChangeListener() {
             @Override
             public boolean onTabChanged(int newIndex) {
                 showToast(tabs2.get(newIndex));
@@ -107,7 +109,7 @@ public class TabBarTestActivity extends BaseActivity {
         });
 
         sbar2.addTabs(tabs2);
-        sbar2.setOnTabChangeListener(new CustomScrollTabBar.OnTabChangeListener() {
+        sbar2.setOnTabChangeListener(new CustomScrollTabBar2.OnTabChangeListener() {
             @Override
             public boolean onTabChanged(int newIndex) {
                 showToast(tabs2.get(newIndex));

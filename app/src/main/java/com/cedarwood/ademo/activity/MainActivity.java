@@ -29,12 +29,12 @@ public class MainActivity extends BaseActivity {
 
 
     private String[] names = {"TabBarTestActivity","TabBarViewPagerTestActivity", "PullListViewTestActivity", "SwipeRefreshTestActivity", "DragMapTestActivity", "PickerTestActivity",
-            "CameraTestActivity", "CheeseTestActivity", "RecyclerAnimatorsTestActivity", "TouchTestActivity", "DoubleDragTestActivity", "JazzyViewPagerTestActivity", "OnOffTestActivity",
+            "CameraTestActivity", "CheeseTestActivity", "RecyclerAnimatorsTestActivity", "TouchTestActivity", "DoubleDragTestActivity", "DoubleDragTest2Activity","JazzyViewPagerTestActivity", "OnOffTestActivity",
             "虫儿飞##", "路长", "虫儿飞$$", "虫儿飞","人生路", "虫儿飞~~", "虫儿飞", "人生路", "虫儿飞~~", "虫儿飞", "人生路", "虫儿飞~~", "虫儿飞", "人生路", "虫儿飞~~"};
 
     private Class[] classNames={ TabBarTestActivity.class,TabBarViewPagerTestActivity.class,PullListViewTestActivity.class,SwipeRefreshTestActivity.class,
             DragMapTestActivity.class, PickerTestActivity.class,CameraTestActivity.class,CheeseTestActivity.class,RecyclerAnimatorsTestActivity.class,
-            TouchTestActivity.class,DoubleDragTestActivity.class,JazzyViewPagerTestActivity.class,OnOffTestActivity.class};
+            TouchTestActivity.class,DoubleDragTestActivity.class,DoubleDragTest2Activity.class,JazzyViewPagerTestActivity.class,OnOffTestActivity.class};
 
     private List<String> texts = new ArrayList<String>();
 

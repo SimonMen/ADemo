@@ -101,6 +101,10 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".activity.DoubleDragTest2Activity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".activity.JazzyViewPagerTestActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
